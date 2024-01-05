@@ -1,14 +1,12 @@
-// lococmotive scroll
-const scroll = new LocomotiveScroll({
-    el: document.querySelector("[data-scroll-container]"),
-    smooth: true,
-    tablet: {
-        smooth: true
-    },
-    smartphone: {
-        smooth: true
-    },
-});
+ 
+
+
+let burger = document.querySelector(".burger")
+let navLinks = document.querySelector(".navlinks")
+
+burger.addEventListener("click", () => {
+    navLinks.classList.toggle("active")
+})
 
 
 
