@@ -742,6 +742,7 @@ footer {
         padding: 0 0 0 40px;
         display: flex;
         flex-direction: column;
+        line-height: 1.3;
     }
 
     .cta-btn {
@@ -781,9 +782,6 @@ footer {
         font-family: 'Montserrat', sans-serif;
         font-weight: 800;
         width: 100%;
-        /* height: 10rem; */
-        /* overflow-x: scroll; */
-        /* background-color: yellowgreen; */
         animation: right2left 5s infinite linear;
     }
 
@@ -881,7 +879,7 @@ footer {
 
     /* Work home section */
     .work-conatiner {
-        padding: 0rem 10%;
+        padding: 0rem 5% 3rem;
     }
 
     .work-heading {
@@ -907,20 +905,22 @@ footer {
 
     .work-slider-container {
         width: 100%;
-        padding: 5rem 0;
+        padding: 5rem 2rem;
         display: flex;
         gap: 2rem;
+        height: 660px;
     }
 
     .box-container {
-        min-width: 800px;
+        min-width: 600px;
         height: 600px;
         overflow: hidden;
+
     }
 
     .box {
-        width: 800px;
-        height: 600px;
+        width: 600px;
+        height: 520px;
         margin-bottom: 1rem;
         background-image: url(/images/1.png);
         background-repeat: no-repeat;
@@ -1197,9 +1197,9 @@ footer {
     }
 
 
-    .footer-links ul {
-        /* background-color: #00a7cc; */
-    }
+    /* .footer-links ul {
+        background-color: #00a7cc;
+    } */
 
     .footer-links ul a {
         font-size: 14px;
@@ -1327,8 +1327,6 @@ footer {
         font-family: 'Montserrat', sans-serif;
         font-weight: 800;
         width: 100%;
-        /* overflow-x: scroll; */
-        /* background-color: yellowgreen; */
         animation: right2left 5s infinite linear;
     }
 
