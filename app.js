@@ -9,6 +9,9 @@ burger.addEventListener("click", () => {
 
 
 
+
+gsap.registerPlugin(ScollTrigger)
+
 const myText = new SplitType(".hero-text")
 
 gsap.to('.char', {
