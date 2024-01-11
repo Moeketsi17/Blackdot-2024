@@ -917,9 +917,9 @@ footer {
         width: 600px;
         height: 520px;
         margin-bottom: 1rem;
-        background-image: url(/images/1.png);
+        /* background-image: url(/images/1.png);
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center; */
     }
 
     .box:hover {
@@ -1446,10 +1446,10 @@ footer {
 
     .work-slider-container {
         width: 100%;
-        padding: 5rem 0 0;
+        padding: 5rem 0 2rem;
         display: flex;
         gap: 2rem;
-        height: 850px;
+        height: 800px;
     }
 
     .box-container {
@@ -1462,10 +1462,15 @@ footer {
         width: 800px;
         height: 600px;
         margin-bottom: 1rem;
+        overflow: hidden;
+    }
+
+    .box-img {
+        width: 800px;
+        height: 600px;
         background-image: url(/images/1.png);
         background-repeat: no-repeat;
         background-position: center;
-        overflow: hidden;
     }
 
     .box:hover {
