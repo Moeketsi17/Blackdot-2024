@@ -4,22 +4,21 @@ let navLinks = document.querySelector(".navlinks")
 
 burger.addEventListener("click", () => {
     navLinks.classList.toggle("active")
-})
+});
 
 
 
 
 
-gsap.registerPlugin(ScollTrigger)
+// GSAP
+import gsap from 'gsap';
 
-const myText = new SplitType(".hero-text")
 
-gsap.to('.char', {
-    y: 100,
-    stagger: 0.05,
-    delay: 0.2,
-    duration: .1
-})
+let tl = gsap.timeline();
+
+tl.to(".hero p", {duration: 1, y: 40,})
+
+
 
 
 
