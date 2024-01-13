@@ -1,5 +1,12 @@
+// GSAP
+import gsap from 'gsap';
+let tl = gsap.timeline();
+
+tl.to(".hero p", {duration: 1, y: 40,})
+
+
 //  toggle navlinks
- let burger = document.querySelector(".burger")
+let burger = document.querySelector(".burger")
 let navLinks = document.querySelector(".navlinks")
 
 burger.addEventListener("click", () => {
@@ -7,16 +14,6 @@ burger.addEventListener("click", () => {
 });
 
 
-
-
-
-// GSAP
-import gsap from 'gsap';
-
-
-let tl = gsap.timeline();
-
-tl.to(".hero p", {duration: 1, y: 40,})
 
 
 
