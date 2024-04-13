@@ -753,13 +753,14 @@ footer {
 
     /* hero */
     header {
-        padding: 25vh 0 0;
+        padding: 20vh 0 0;
     }
     .hero {
         width: 100%;
         height: 35vh;
         padding: 20px 5% 20px;
         flex-direction: row;
+        
     }
 
     .hero p:first-child {
@@ -775,7 +776,7 @@ footer {
 
     .hero p:nth-child(2) {
         font-family: 'Roboto', sans-serif;
-        font-size: 40px;
+        font-size: 38px;
         font-weight: 600;
         width: 800px;
         height: 100%;
@@ -1334,7 +1335,6 @@ footer {
 
 /* max screen size */
 @media screen and (min-width: 1440px) {
-    
 
     nav {
         padding: 0 10%;
@@ -1370,6 +1370,7 @@ footer {
         width: 100%;
         height: 40vh;
         /* padding: 40px 10% 0px; */
+        
     }
 
     .hero p:first-child {
@@ -1385,13 +1386,14 @@ footer {
 
     .hero p:nth-child(2) {
         font-family: 'Roboto', sans-serif;
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 600;
-        width: 800px;
+        width: 750px;
         height: 100%;
         padding: 0 0 0 40px;
         display: flex;
         flex-direction: column;
+        line-height: 1.1;
     }
 
     .cta-btn {
@@ -1403,7 +1405,7 @@ footer {
         text-align: center;
         font-weight: 400;
         text-decoration: none;
-        padding-top: 12px;
+        padding-top: 15px;
         margin: 20px 0 0;
     
     }
@@ -1415,7 +1417,7 @@ footer {
 
     .header-slider {
         width: 100%;
-        height: 32vh;
+        height: 40vh;
         display: flex;
         overflow: hidden;
         white-space: nowrap;
@@ -1429,7 +1431,7 @@ footer {
         align-items: flex-start;
         font-family: 'Montserrat', sans-serif;
         font-weight: 800;
-        line-height: 17rem;
+        line-height: 18rem;
         width: 100%;
         animation: right2left 5s infinite linear;
     }
