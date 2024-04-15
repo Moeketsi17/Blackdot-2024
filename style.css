@@ -1035,6 +1035,7 @@ footer {
 
     .services-text-container {
         width: 70%;
+        padding: 0 0 0 30px;
     }
 
     .service-heading {
