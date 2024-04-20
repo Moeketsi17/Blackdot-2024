@@ -800,10 +800,20 @@ footer {
     
     }
 
-    .cta-btn:hover {
+    .cta-btn::before {
+        top:0; 
+        bottom: 0; 
+        right: 0;
+        height: 100%; 
+        width: 100%;
+        background-color: #00a7cc;
+      }
+
+    .cta-btn:hover::before {
+        width: 0%;
         transition: 0.3s ease;
         background-color: #000;
-    }
+      }
 
     .header-slider {
         width: 100%;
@@ -1734,7 +1744,7 @@ footer {
 
     /* footer */
     footer {
-        height: 128vh;
+        height: 140vh;
         background-color: #000;
         display: flex;
         flex-direction: column;
@@ -1830,7 +1840,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 33%;
-        padding: 5rem 5rem 0rem 2rem;
+        padding: 2rem 5rem 0rem 2rem;
     }
 
     .footer-links p {

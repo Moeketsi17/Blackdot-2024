@@ -8,6 +8,25 @@ burger.addEventListener("click", () => {
 
 
 
+// GSAP animattions
+gsap.registerPlugin(ScrollTrigger);
+
+    gsap.utils.toArray('.text-slide').forEach(textSlide => {
+      gsap.from(textSlide, {
+        y: 50,
+        opacity: 0,
+        duration: 1,
+        scrollTrigger: {
+          trigger: textSlide,
+          start: 'top 80%',
+          end: 'bottom 50%',
+          toggleActions: 'play none none reverse',
+        }
+      });
+    });
+
+
+
 
 
 
